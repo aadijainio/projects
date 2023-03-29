@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+
+.navbar {
+    background-color: #212529;
+    height: 120px;
+}
+
+.row{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media (min-width: 992px){
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+
+#table{
+    background-color: rgb(226, 221, 221);
+    height:fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablesize{
+    padding: 10px 150px 10px 150px;
+}
+
+img{
+    float: right;
+    padding-right: 50px;
+}
+
+.maincontent{
+    font-size: 60px;
+    padding: 0px 0px 0px 50px;
+    font-weight: 700;
+}
+
+.hightext{
+    color: rgb(30, 189, 30);
+    font-weight: 900;
+}
+
+.greatertext{
+    font-size: 1.2em;
+    position: relative;
+    bottom: 20px;
+}
+.lastline{
+    position: relative;
+    bottom: 20px;
+}
+.caption{
+    font-size: 10px;
+    color: grey;
+    padding-left: 60px;
+    position: relative;
+    bottom: 30px;
+}
+
+.btn-success{
+    background-color: rgb(30, 189, 30);
+    color: white;
+    margin-left:50px;
+    font-weight:500
+}
+.greenfontbtn{
+    background-color: rgb(230, 216, 216);
+    color: rgb(30, 189, 30);
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+.icons{
+    font-size: 20px;
+    padding: 20px 0px 0px 30px;
+    color: gray;
+}
+
+.fa{
+    padding-left: 20px;
+}
